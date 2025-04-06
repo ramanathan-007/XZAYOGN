@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './SignIn.css'; // 👈 Import the CSS
-import img2 from '../assets/img2.png'; // Adjust path if necessary
+import './SignIn.css';
+import img2 from '../assets/img2.png'; 
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
