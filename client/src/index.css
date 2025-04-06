@@ -1,0 +1,38 @@
+/* client/src/index.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
